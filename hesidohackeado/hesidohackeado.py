@@ -37,7 +37,7 @@ def help():
     """FUNCTION HELP"""
 
     print  """ \nTool to check if a mail account has been hacked thought 'He sido hackeado' API (https://hesidohackeado.com)
-      Example of usage: python hesidohackeado.py -t test@example.com"""
+      Example of usage: python hesidohackeado.py -a test@example.com"""
 
 
 def main(argv):
@@ -83,7 +83,7 @@ def main(argv):
     else:
         response = send_request(url+email)
         # Call function to manage results
-        users,results = manage_response(response)
+        users,results,found = manage_response(response)
 
     #Export results
     if output == 'y':
