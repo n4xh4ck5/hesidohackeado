@@ -43,7 +43,7 @@ def help():
 def main(argv):
 
     """FUNCTION MAIN"""
-    parser = argparse.ArgumentParser(description="Tool to check the HTTP.sys vulnerability MS15-034 (CVE-2015-1635)", formatter_class=RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(description="Tool to verify if a mail account has been hacked throught 'He sido hackeado' API (https://hesidohackeado.com/)", formatter_class=RawTextHelpFormatter)
     parser.add_argument('-a','--address', help="Account email which you would like to search",required=False)
     parser.add_argument('-i', '--input', help="File in .txt or json which the email accounts", required=False)
     parser.add_argument('-e', '--export', help="File in xlsx format which the results(y/n)",required=False)
