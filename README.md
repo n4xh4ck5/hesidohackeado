@@ -3,7 +3,7 @@ Tool to verify if a mail account has been hacked throught "He sido hackeado" API
 
 # Instalation
 
-You can download the latest version of CMSsc4n by cloning the GitHub repository:
+You can download the latest version of hesidochakeado by cloning the GitHub repository:
 
 <pre> git clone https://github.com/n4xh4ck5/hesidohackeado.git </pre>
 
