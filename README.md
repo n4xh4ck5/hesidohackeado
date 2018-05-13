@@ -1,5 +1,5 @@
 # hesidohackeado
-Tool to verify if a mail account has been hacked throught "He sido hackeado" API (https://hesidohackeado.com/)
+Tool to verify if a mail account has been hacked throught "He sido hackeado" API (https://hacked-emails.com/) - old (hesidohackeado.com)
 
 # Instalation
 
@@ -17,7 +17,7 @@ Install the dependencies via pip:
 python hesidohackeado.py -h
 usage: hesidohackeado.py [-h] [-a ADDRESS] [-i INPUT] [-e EXPORT]
 
-Tool to verify if a mail account has been hacked throught 'He sido hackeado' API (https://hesidohackeado.com/)
+Tool to verify if a mail account has been hacked throught 'He sido hackeado' API (https://hacked-emails.com/) - old (hesidohackeado.com)
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -33,7 +33,7 @@ optional arguments:
 
 Ignacio Brihuega Rodríguez aka n4xh4ck5
 
-Twitter:  @Nachoo_91
+Twitter:  @n4xh4ck5
 
 Web: fwhibbit.es
 
