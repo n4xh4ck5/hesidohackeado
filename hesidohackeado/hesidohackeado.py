@@ -36,14 +36,14 @@ def banner():
 def help():
     """FUNCTION HELP"""
 
-    print  """ \nTool to check if a mail account has been hacked thought 'He sido hackeado' API (https://hesidohackeado.com)
+    print  """ \nTool to check if a mail account has been hacked thought 'He sido hackeado' API (https://hacked-emails.com)
       Example of usage: python hesidohackeado.py -a test@example.com"""
 
 
 def main(argv):
 
     """FUNCTION MAIN"""
-    parser = argparse.ArgumentParser(description="Tool to verify if a mail account has been hacked throught 'He sido hackeado' API (https://hesidohackeado.com/)", formatter_class=RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(description="Tool to verify if a mail account has been hacked throught 'He sido hackeado' API (https:/hacked-emails.com)", formatter_class=RawTextHelpFormatter)
     parser.add_argument('-a','--address', help="Account email which you would like to search",required=False)
     parser.add_argument('-i', '--input', help="File in .txt or json which the email accounts", required=False)
     parser.add_argument('-e', '--export', help="File in xlsx format which the results(y/n)",required=False)
@@ -56,7 +56,7 @@ def main(argv):
     banner()
     help ()
     #URL API He sido hackedo
-    url = "https://hesidohackeado.com/api?q="
+    url = "https://hacked-emails.com/api?q="
     input_email = []
     response = None
     #var's to export
