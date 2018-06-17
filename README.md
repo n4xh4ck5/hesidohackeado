@@ -29,6 +29,10 @@ optional arguments:
                         File in xlsx format which the results(y/n)
 </pre>
 
+# Attention
+
+hacked-emails has deleted the API due to GDPR..., so the script doesn't work. we hope the API will be available
+
 # Author
 
 Ignacio Brihuega Rodríguez aka n4xh4ck5
